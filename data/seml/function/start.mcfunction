@@ -15,14 +15,15 @@ effect give @a minecraft:saturation 40 0 true
 give @a cooked_beef 64
 scoreboard players set @a death 0
 team join player @a
+experience set @a 0 levels
+experience set @a 0 points
 
 scoreboard objectives setdisplay sidebar info
 bossbar set minecraft:time players @a
 bossbar set minecraft:time name "다음 자기장 축소까지 남은 시간 : "
 execute store result score 남은인원 info if entity @a
 bossbar set time color white
-
-spreadplayers 0 0 100 500 false @a
+worldborder damage amount 0.2
 
 scoreboard players set game timer 4
 function seml:game_mgr

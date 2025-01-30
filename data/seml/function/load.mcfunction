@@ -20,7 +20,6 @@ gamerule playersNetherPortalCreativeDelay 999999999
 
 worldborder center 0 0
 worldborder damage buffer 0.5
-worldborder damage amount 0.2
 
 bossbar add time "다음 자기장 축소까지 남은 시간"
 scoreboard objectives add timer dummy
