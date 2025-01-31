@@ -12,6 +12,7 @@ scoreboard players set @a death 0
 team leave @a
 experience set @a 0 levels
 experience set @a 0 points
+defaultgamemode adventure
 
 time set 0
 weather clear

@@ -14,7 +14,7 @@ effect give @a minecraft:instant_health 40 0 true
 effect give @a minecraft:saturation 40 0 true
 give @a cooked_beef 64
 scoreboard players set @a death 0
-team join player @a
+
 experience set @a 0 levels
 experience set @a 0 points
 
@@ -24,6 +24,7 @@ bossbar set minecraft:time name "다음 자기장 축소까지 남은 시간 : "
 execute store result score 남은인원 info if entity @a
 bossbar set time color white
 worldborder damage amount 0.2
+defaultgamemode spectator
 
 scoreboard players set game timer 4
 function seml:game_mgr
