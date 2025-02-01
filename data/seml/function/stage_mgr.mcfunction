@@ -12,8 +12,4 @@ $scoreboard players set time myArgument $(time)
 execute store result storage seml:data dist int 1 run scoreboard players get dist myArgument
 execute store result storage seml:data time int 1 run scoreboard players get time myArgument
 
-execute store result bossbar time value run scoreboard players get bossbar timer
-bossbar set minecraft:time name [{"text":"자기장 축소까지 남은 시간 : "},{"score":{"name":"bossbar_min","objective":"timer"}},{"text":"분 "},{"score":{"name":"bossbar_sec","objective":"timer"}},{"text":"초"}]
-bossbar set minecraft:time color white
-
 function seml:timer
