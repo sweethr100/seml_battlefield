@@ -23,7 +23,7 @@ worldborder damage buffer 0.5
 
 bossbar add time "다음 자기장 축소까지 남은 시간"
 scoreboard objectives add timer dummy
-scoreboard objectives add info dummy "Info"
+scoreboard objectives add info dummy ""
 scoreboard objectives add death deathCount
 scoreboard objectives add myArgument dummy
 
