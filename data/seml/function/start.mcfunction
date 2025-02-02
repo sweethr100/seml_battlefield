@@ -24,4 +24,5 @@ worldborder damage amount 0.2
 defaultgamemode spectator
 
 scoreboard players set game timer 4
+team join player @a
 function seml:game_mgr

@@ -1,6 +1,5 @@
 execute if score game timer matches 4 run function seml:stage_mgr {wait:"0",dist:"1000",time:"0"}
-execute if score game timer matches 4 run spreadplayers 0 0 100 500 true @a
-execute if score game timer matches 4 run team join player @a
+execute if score game timer matches 4 run spreadplayers 0 0 100 500 false @a
 
 execute if score game timer matches 4 run function seml:stage_mgr {wait:"900",dist:"500",time:"300"}
 
