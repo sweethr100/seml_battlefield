@@ -12,7 +12,8 @@ clear @a
 effect clear @a
 effect give @a minecraft:instant_health 40 0 true
 effect give @a minecraft:saturation 40 0 true
-give @a cooked_beef 64
+effect give @a night_vision infinite 0 true
+give @a cooked_beef 32
 scoreboard players set @a death 0
 
 experience set @a 0 levels
