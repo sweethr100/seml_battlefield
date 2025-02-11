@@ -27,6 +27,12 @@ scoreboard objectives add info dummy ""
 scoreboard objectives add death deathCount
 scoreboard objectives add myArgument dummy
 
+scoreboard objectives add mine_iron minecraft.mined:minecraft.iron_ore
+scoreboard objectives add mine_deepiron minecraft.mined:minecraft.deepslate_iron_ore
+scoreboard objectives add mine_gold minecraft.mined:minecraft.gold_ore
+scoreboard objectives add mine_deepgold minecraft.mined:minecraft.deepslate_gold_ore
+
+
 scoreboard players set 60 timer 60
 
 team add player
