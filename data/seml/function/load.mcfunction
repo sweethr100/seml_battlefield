@@ -37,3 +37,4 @@ scoreboard players set 60 timer 60
 
 team add player
 team modify player nametagVisibility never
+team modify player friendlyFire false
