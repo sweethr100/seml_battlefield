@@ -8,7 +8,7 @@ execute if entity @s[name=Hash_tag1111] run tellraw @a [{"text":"해시","bold":
 
 
 execute if entity @s[name=!Samgek,name=!seml_,name=!RGPG,name=!Tworyeon,name=!terry_taner,name=!kine1005,name=!Hash_tag1111] run tellraw @a [{"selector":"@s","bold":true,"color":"red"},{"text":"이(가) 죽었습니다"}]
-scoreboard players remove 남은인원 info 1
+tellraw @s [{"text":"당신의 순위 : "},{"score":{"name":"남은인원","objective":"info"}},{"text":"등"}]
 execute if score 남은인원 info matches 1 run function seml:game_end
 gamemode spectator @s
 scoreboard players set @s death 2
