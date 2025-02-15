@@ -7,10 +7,8 @@ execute if score game timer matches 3 run function seml:stage_mgr {wait:"900",di
 
 execute if score game timer matches 2 run function seml:stage_mgr {wait:"720",dist:"500",time:"600"}
 
-execute if score game timer matches 1 run function seml:stage_mgr {wait:"600",dist:"100",time:"600"}
+execute if score game timer matches 1 run function seml:stage_mgr {wait:"600",dist:"20",time:"300"}
 
-execute if score game timer matches 0 run effect give @a glowing infinite 0 true
-execute if score game timer matches 0 run bossbar set minecraft:time color white
-execute if score game timer matches 0 run bossbar set minecraft:time name {"text":"자기장 최소 사이즈 도달!"}
+execute if score game timer matches 0 run function seml:final_mgr {wait:"180"}
 
 scoreboard players remove game timer 1

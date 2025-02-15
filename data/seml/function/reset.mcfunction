@@ -1,5 +1,7 @@
 schedule clear seml:timer
+schedule clear seml:final_timer
 
+fill -100 200 -100 100 200 100 minecraft:air replace minecraft:bedrock
 place template seml:spawn2 -17 200 -17
 
 effect clear @a
@@ -13,6 +15,7 @@ experience set @a 0 levels
 experience set @a 0 points
 defaultgamemode adventure
 team modify player friendlyFire false
+stopsound @a * minecraft:music.dragon
 
 time set 0
 weather clear

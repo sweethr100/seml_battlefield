@@ -2,6 +2,7 @@ title @a title [{"text":"살아남으세요!","color":"green"}]
 playsound minecraft:block.bell.use master @a 0 200 0 999999999999 0 1
 
 fill -17 200 -17 17 218 17 minecraft:air
+fill -100 200 -100 100 200 100 minecraft:air replace minecraft:bedrock
 
 gamerule doDaylightCycle true
 gamerule doWeatherCycle true

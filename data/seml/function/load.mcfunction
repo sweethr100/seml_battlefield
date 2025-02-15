@@ -17,6 +17,7 @@ gamerule doWardenSpawning false
 gamerule showDeathMessages false
 gamerule playersNetherPortalDefaultDelay 999999999
 gamerule playersNetherPortalCreativeDelay 999999999
+gamerule commandModificationBlockLimit 500000
 
 worldborder center 0 0
 worldborder damage buffer 0.5
