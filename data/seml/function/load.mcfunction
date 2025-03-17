@@ -8,7 +8,7 @@ gamerule announceAdvancements false
 gamerule doDaylightCycle false
 gamerule doWeatherCycle false
 gamerule fallDamage false
-gamerule fireDamage false
+gamerule fireDamage true
 gamerule doPatrolSpawning false
 gamerule doInsomnia false
 gamerule doWardenSpawning false
