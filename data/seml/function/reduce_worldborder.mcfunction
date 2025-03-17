@@ -7,6 +7,6 @@ playsound minecraft:block.note_block.pling master @a 0 200 0 999999999999 1 1
 
 $scoreboard players set 자기장지름 info $(dist)
 
-$worldborder set $(dist) $(time)
+$worldborder set $(dist) $(wb_time)
 
-$schedule function seml:game_mgr $(time)s
+$schedule function seml:game_mgr $(wb_time)s

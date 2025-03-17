@@ -1,9 +1,7 @@
-say 배틀필드 데이터팩 로드됨!
+tellraw @a [{"text":"게임 리셋하기 --> ","color":"gold"},{"clickEvent":{"action":"run_command","value":"/function seml:reset"},"text":"[클릭]","bold":true,"color":"aqua"}]
 
-place template seml:spawn2 -17 200 -17
 setworldspawn 0 201 0
 gamerule spawnRadius 0
-defaultgamemode adventure
 
 difficulty hard
 gamerule announceAdvancements false
@@ -20,7 +18,6 @@ gamerule playersNetherPortalCreativeDelay 999999999
 gamerule commandModificationBlockLimit 500000
 
 worldborder center 0 0
-worldborder damage buffer 0.5
 
 bossbar add time "다음 자기장 축소까지 남은 시간"
 scoreboard objectives add timer dummy
@@ -33,9 +30,8 @@ scoreboard objectives add mine_deepiron minecraft.mined:minecraft.deepslate_iron
 scoreboard objectives add mine_gold minecraft.mined:minecraft.gold_ore
 scoreboard objectives add mine_deepgold minecraft.mined:minecraft.deepslate_gold_ore
 
-
 scoreboard players set 60 timer 60
 
 team add player
-team modify player nametagVisibility never
-team modify player friendlyFire false
+team add BLUE
+team add RED

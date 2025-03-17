@@ -9,4 +9,4 @@ execute at @a run fill ~5 ~5 ~5 ~-5 ~-5 ~-5 minecraft:air replace minecraft:end_
 
 execute store result score 남은인원 info if entity @a[scores={death=0},gamemode=!spectator]
 
-team join player @a[team=!player]
+execute if score game timer matches -1 run effect give @a minecraft:regeneration infinite 99 true
