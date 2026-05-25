@@ -2,9 +2,9 @@
 
 Made by seml_
 
-[![배틀로얄 데이터팩 영상](https://img.youtube.com/vi/R6J2Zv7Bmwg/hqdefault.jpg)](https://www.youtube.com/watch?v=R6J2Zv7Bmwg)
+[![배틀로얄 데이터팩 영상](https://img.youtube.com/vi/GiqS679jro4/hqdefault.jpg)](https://www.youtube.com/watch?v=GiqS679jro4)
 
-영상 보기: https://www.youtube.com/watch?v=R6J2Zv7Bmwg
+영상 보기: https://www.youtube.com/watch?v=GiqS679jro4
 
 ## 개요
 
