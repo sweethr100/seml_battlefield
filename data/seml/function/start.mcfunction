@@ -7,8 +7,8 @@ playsound minecraft:block.bell.use master @a 0 200 0 999999999999 0 1
 fill -15 200 -15 15 200 15 minecraft:air
 fill -17 200 -17 17 218 17 minecraft:air
 
-gamerule doDaylightCycle true
-gamerule doWeatherCycle true
+gamerule advance_time true
+gamerule advance_weather true
 
 time set 0
 weather clear

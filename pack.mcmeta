@@ -1,6 +1,10 @@
 {
   "pack": {
-    "pack_format": 61,
+    "min_format": [
+      101,
+      1
+    ],
+    "max_format": 101,
     "description": "배틀로얄"
   }
 }
