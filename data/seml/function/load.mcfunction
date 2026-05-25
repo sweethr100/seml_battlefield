@@ -1,4 +1,4 @@
-tellraw @a [{"text":"게임 리셋하기 --> ","color":"gold"},{"clickEvent":{"action":"run_command","value":"/function seml:reset"},"text":"[클릭]","bold":true,"color":"aqua"}]
+tellraw @a [{"text":"게임 리셋하기 --> ","color":"gold"},{"click_event":{"action":"run_command","command":"/function seml:reset"},"text":"[클릭]","bold":true,"color":"aqua"}]
 
 setworldspawn 0 201 0
 gamerule respawn_radius 0

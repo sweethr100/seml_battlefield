@@ -1,1 +1,1 @@
-function seml:start {team:"0"}
+function seml:start

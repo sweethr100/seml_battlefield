@@ -1,1 +1,1 @@
-function seml:start {team:"1"}
+function seml:start_impl {team:"1"}
